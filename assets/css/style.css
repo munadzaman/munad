@@ -210,23 +210,40 @@ nav{
     display: flex;
     margin-top: 5em;
     gap: 30px;
+
 	
 }
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-	color: rgb(94, 65, 243);
-    box-shadow: 0px 2px 5px 0px rgb(99, 74, 224);
+    color: rgb(118, 93, 245);
+    box-shadow: 0px 2px 5px 0px rgb(110, 87, 224);
     cursor: pointer;
 }
-.icon:hover{
-    color: rgb(102, 134, 209);
-	box-shadow: 0px 2px 5px 0px rgb(74, 113, 202);
+
+.icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Ensures the clickable area matches the circular design */
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Inherits the text color from the parent */
 }
+.icon i {
+    font-size: 28px; /* Adjust to make the icon larger */
+}
+
+.icon:hover {
+    color: rgb(40, 91, 212);
+    box-shadow: 0px 2px 5px 0px rgb(40, 91, 212);
+}
+
 
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
